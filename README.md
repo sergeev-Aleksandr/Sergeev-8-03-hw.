@@ -213,3 +213,34 @@
 # Finished: SUCCESS
  
 
+#     3
+
+
+ 
+# pipeline {
+#    agent any
+#    stages {
+#        stage('Git clone') {
+#            steps {
+#                git 'https://github.com/netology-code/sdvps-materials.git'
+#            }
+#        }
+#        stage('Run tests') {
+#            steps {
+#                sh '/usr/local/go/bin/go test .'
+#            }
+#        }
+#        stage('Build go app and push to Nexus repo') {
+#            steps {
+#                sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o ./go-app .'
+#                sh 'curl -u admin:admin http://cicd-host:8081/repository/raw-hosted-repo/ --upload-file ./go-app -v'
+#            }
+#        }
+#    }
+ 
+
+
+
+
+
+# image https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/image.png
