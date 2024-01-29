@@ -1,5 +1,5 @@
 
-Домашнее задание к занятию "Disaster recovery и Keepalived" - Стрекозов Владимир
+Домашнее задание к занятию "Disaster recovery и Keepalived" - Сергеев Александр
 Задание 1
 
     Дана схема для Cisco Packet Tracer, рассматриваемая в лекции.
