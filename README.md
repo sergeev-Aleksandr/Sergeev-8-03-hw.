@@ -34,5 +34,8 @@ keepalived запускает скрипт с определенным инте�
 Получившийся bash-скрипт
 [script](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/script)
 
+Конфигурационный файл keepalived с настройкой tracking script
+
+
     
 
