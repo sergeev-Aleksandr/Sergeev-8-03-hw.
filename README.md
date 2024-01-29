@@ -12,7 +12,7 @@
 А так же настроен standby track, который позволяет отслеживать состояние того или иного интерфейса и изменять приоритет интерфейса
 ![Image ait](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/Z1.PNG)
 Файл packet tracer
-[pkt file]https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/hsrp_advanced_Z1.pkt
+[pkt file] https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/hsrp_advanced_Z1.pkt
 
 
 Задание 2
