@@ -32,6 +32,7 @@
 keepalived запускает скрипт с определенным интервалом, если скрипт возвращает статус 0, то ничего не происходит, 
 если 1, то keepalived переходит в статус fault.
 Получившийся bash-скрипт
+[script](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/script)
 
     
 
