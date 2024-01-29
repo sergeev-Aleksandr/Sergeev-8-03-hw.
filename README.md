@@ -12,7 +12,7 @@
 А так же настроен standby track, который позволяет отслеживать состояние того или иного интерфейса и изменять приоритет интерфейса
 ![Image ait](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/Z1.PNG)
 Файл packet tracer
-https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/hsrp_advanced_Z1.pkt
+[pkt file]https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/hsrp_advanced_Z1.pkt
 
 
 Задание 2
@@ -32,5 +32,16 @@ https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/hsrp_advanced_Z1
 keepalived запускает скрипт с определенным интервалом, если скрипт возвращает статус 0, то ничего не происходит, 
 если 1, то keepalived переходит в статус fault.
 Получившийся bash-скрипт
+#!bin/bash
+PORT=$(bash -c 'exec 3<> /dev/tcp/127.0.0.1/80;echo $?' 2>/dev/null)
+echo "$PORT"
+echo "$FILE"
+if [[ $PORT -eq 0 && $FILE -eq 0 ]]; then
+  echo "0" > /tmp/track_file
+  exit 0
+else
+  echo "1" > /tmp/track_file
+  exit 1
+fi
     
 
