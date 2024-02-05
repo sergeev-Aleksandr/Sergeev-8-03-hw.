@@ -17,4 +17,4 @@
     Резервная копия размещается локально, в директории /tmp/backup
     На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
-
+![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/2.png)
