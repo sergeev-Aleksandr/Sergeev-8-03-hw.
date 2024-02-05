@@ -19,3 +19,4 @@
 
 ![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/2.png)
 ![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/3.png)
+![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/4.png)
