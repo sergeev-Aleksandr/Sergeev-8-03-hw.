@@ -24,3 +24,11 @@
 
 
 ![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-02-15%2023-25-24.png)
+
+
+Задание 4. Запись данных в Redis
+Запишите в Redis несколько ключей с любыми именами и значениями.
+Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
+
+
+![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-02-15%2023-53-59.png)
