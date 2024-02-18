@@ -10,8 +10,17 @@
 3 увеличить скорость ответа (повышение производительности за счет сохранения в кэш данных по частым запросам)
 
 
+
 Задание 2. Memcached
 Установите и запустите memcached.
 Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
 
 ![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-02-15%2023-13-14.png)
+
+
+Задание 3. Удаление по TTL в Memcached
+Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
+Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.
+
+
+![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-02-15%2023-25-24.png)
