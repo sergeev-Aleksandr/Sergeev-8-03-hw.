@@ -40,6 +40,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 customer              | customer_id
 
 Название таблицы             | Название первичного ключа
+
 actor                        | actor_id
 actor_info                   | 
 address                      | address_id
