@@ -5,6 +5,7 @@
     фамилия и имя сотрудника из этого магазина;
     город нахождения магазина;
     количество пользователей, закреплённых в этом магазине.
+    
 
 SELECT CONCAT(s.last_name, ' ', s.first_name) AS staff, c.city, COUNT(c2.store_id) AS custumers
 
@@ -22,7 +23,9 @@ GROUP BY c2.store_id
 
 HAVING COUNT(c2.store_id) > 300;
 
+
 Задание 2
+
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 
 SELECT COUNT(f.title) 
@@ -30,6 +33,7 @@ SELECT COUNT(f.title)
 FROM film f
 
 WHERE f.`length` > (SELECT AVG(`length`) FROM film)
+
 
 Задание 3
 
