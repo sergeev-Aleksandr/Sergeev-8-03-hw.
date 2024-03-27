@@ -6,22 +6,8 @@
     город нахождения магазина;
     количество пользователей, закреплённых в этом магазине.
     
+![image](https://github.com/sergeev-Aleksandr/Sergeev-8-03-hw./blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-03-27%2023-48-25.png)
 
-SELECT CONCAT(s.last_name, ' ', s.first_name) AS staff, c.city, COUNT(c2.store_id) AS custumers
-
-FROM customer c2
-
-INNER JOIN store s2 ON s2.store_id = c2.store_id
-
-INNER JOIN staff s ON s.staff_id = s2.manager_staff_id 
-
-INNER JOIN address a ON s.address_id = a.address_id
-
-INNER JOIN city c ON c.city_id = a.city_id
-
-GROUP BY c2.store_id
-
-HAVING COUNT(c2.store_id) > 300;
 
 
 Задание 2
